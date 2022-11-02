@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style>
+    h2 {color: red;}
+    h4{font-size: xx-large;
+      background: yellow;}
+    a[href*="contacto" ] {
+      color:orange;
+    }
+    #hola  {
+      color:burlywood;
+      text-align: right;
+    }
+    h7:link {
+      color: blue; 
+    }
+
+    h7:visited {
+      color:blueviolet;
+    }
+
+    h7:hover {
+      color:chartreuse; 
+    }
+  </style>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title><my-site></my-site></title>
@@ -8,13 +31,15 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
-<body>
-    <h1>Hola mundo</h1>
-    <h2>Segunda etiqueta</h2>
-    <h3>Tercera etiqueta</h3>
-    <h4>Cuarta etiqueta</h4>
-    <h5>Quinta etiqueta</h5>
+<body style="background-color: aquamarine ;">
+    <h1 style="background-color: rgb(110, 145, 156) ;">Hola mundo</h1>
+    <h2>2°etiqueta</h2>
+    <h3>3°etiqueta</h3>
+    <h4>4°etiqueta</h4>
+    <h5>5°etiqueta</h5>
     <h6>Sexta etiqueta</h6>
+    <h1 id = "hola"> hola, ¿Cómo estás? </h1>
+    <h2>Segunda etiqueta</h2>
     <p>Mucho gusto</p>
     <p>Saludos desde house</p>
     <i>Soy italica</i>
@@ -24,21 +49,23 @@
     <time></time>"2022-11-10 13:00"</time>
     <nav class="Lista">
         <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Sobre nosotros</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="http://blog.com">Inicio de trabajo</a></li>
+          <li><a href="http://contacto.com">Sobre contacto</a></li>
+          <li><a href="http://blog.contacto.com">contacto de trabajo</a></li>
         </ul>
       </nav>
       <articulo>
         <Encabezado>
           <h1>Primer encabezado aqui</h1>
-          <p>Publicado por anonimo</p>
-          <p>Informacion adicional</p>
+          <p>Trabajo por anonimo</p>
+          <p>Informacion anonimo</p>
         </Encabezado>
-        <p>Trabajo para trabajar....</p>
+        <p>trabajo para trabajar....</p>
       </articulo>
+      <h7> Este es un ejemplo visitado en blog.contacto.com. La pagina principal es contacto.com</h7>
     <wbr> Salto de linea 
     <svg> Mostrar formas</svg>
+    
 
 </body>
 </html>
